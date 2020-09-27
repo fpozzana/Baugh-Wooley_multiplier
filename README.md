@@ -9,14 +9,23 @@ Parametric implementation in systemVerilog of a Baugh-Wooley (signed) multiplier
 --------------
 
 |        Site Type        | Used | Fixed | Available | Util% |
+
 | Slice LUTs*             |  349 |     0 |     20800 |  1.68 |
+
 |   LUT as Logic          |  349 |     0 |     20800 |  1.68 |
+
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+
 | Slice Registers         |    0 |     0 |     41600 |  0.00 |
+
 |   Register as Flip Flop |    0 |     0 |     41600 |  0.00 |
+
 |   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
+
 
 7. Primitives
 -------------
