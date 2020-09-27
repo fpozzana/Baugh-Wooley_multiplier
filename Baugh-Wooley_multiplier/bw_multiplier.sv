@@ -1,4 +1,4 @@
-module bw_multiplier #(integer numBit = 4)
+module bw_multiplier #(integer numBit = 16)
 (
   input logic [numBit-1:0]      m_in,
   input logic [numBit-1:0]      n_in,
