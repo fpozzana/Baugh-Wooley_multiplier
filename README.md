@@ -8,9 +8,7 @@ Parametric implementation in systemVerilog of a Baugh-Wooley (signed) multiplier
 1. Slice Logic
 --------------
 
-+-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
-+-------------------------+------+-------+-----------+-------+
 | Slice LUTs*             |  349 |     0 |     20800 |  1.68 |
 |   LUT as Logic          |  349 |     0 |     20800 |  1.68 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
@@ -19,14 +17,11 @@ Parametric implementation in systemVerilog of a Baugh-Wooley (signed) multiplier
 |   Register as Latch     |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
-+-------------------------+------+-------+-----------+-------+
 
 7. Primitives
 -------------
 
-+----------+------+---------------------+
 | Ref Name | Used | Functional Category |
-+----------+------+---------------------+
 | LUT6     |  186 |                 LUT |
 | LUT4     |  120 |                 LUT |
 | LUT2     |  115 |                 LUT |
@@ -34,7 +29,6 @@ Parametric implementation in systemVerilog of a Baugh-Wooley (signed) multiplier
 | OBUF     |   32 |                  IO |
 | IBUF     |   32 |                  IO |
 | LUT3     |    3 |                 LUT |
-+----------+------+---------------------+
 
 ## Tools
 
