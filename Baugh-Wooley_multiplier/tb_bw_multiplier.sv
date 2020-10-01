@@ -1,13 +1,13 @@
 `timescale 1 ns/10 ps  // time-unit = 1 ns, precision = 10 ps
 
-module tb_bw_multiplier;
+module tb_bw_multiplier_s;
 
 parameter numBit = 4;
 
 logic [numBit-1:0] m_in, n_in;
 logic [2*numBit-1:0] o_out;
 
-bw_multiplier #(4) DUT (.m_in(m_in), .n_in(n_in), .o_out(o_out));
+bw_multiplier_s #(4) DUT (.m_in(m_in), .n_in(n_in), .o_out(o_out));
 
 initial
 begin
