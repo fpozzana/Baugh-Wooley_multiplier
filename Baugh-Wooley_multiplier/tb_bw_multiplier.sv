@@ -9,26 +9,6 @@ logic [2*numBit-1:0] o_out;
 
 bw_multiplier_s #(numBit) DUT (.m_in(m_in), .n_in(n_in), .o_out(o_out));
 
-/*
-initial
-begin
-  m_in = 4'b0000;
-  n_in = 4'b0001;
-  #10us;
-  m_in = 4'b0111;
-  n_in = 4'b0111;
-  #10us;
-  m_in = 4'b0000;
-  n_in = 4'b0001;
-  #10us;
-  m_in = 4'b0001;
-  n_in = 4'b0000;
-  #10us;
-  m_in = 4'b0011;
-  n_in = 4'b0110;
-  #10us;
-end
-*/
 integer i;
 integer j;
 
