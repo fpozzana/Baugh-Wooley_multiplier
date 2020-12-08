@@ -11,13 +11,13 @@ Parametric implementation in systemVerilog of a Baugh-Wooley (signed) multiplier
 
 7. Primitives
 
-LUT6 - 186
-LUT4 - 120
-LUT2 - 115
-LUT5 - 58
-OBUF - 32
-IBUF - 32
-LUT3 - 3
+LUT6 - 186  
+LUT4 - 120  
+LUT2 - 115  
+LUT5 - 58  
+OBUF - 32  
+IBUF - 32  
+LUT3 - 3  
 
 ## Tools
 
